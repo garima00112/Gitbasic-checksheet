@@ -1,0 +1,59 @@
+##GIT BASIC CHECKSHEET
+
+#FOR A NEW FILE
+git init
+git add .
+git commit -m "message"
+git branch -M main
+git remote add origin "repository link"
+git push origin main
+
+#FOR SAME FILE
+git add .
+git commit -m "message"
+git push
+
+To add file to staging area:
+git add filename.txt
+git add filename.txt filename2.txt => Two file
+git add . => All file
+
+To commit the changes
+-git commit -m "msg"
+
+View commit history
+-git log
+
+view in oneline
+-git log --oneline
+
+git checkout #code => paila ko stage ma jana
+git checkout master =>  To Return back in present stage
+
+To push our code to github
+-git push origin master
+
+To know the difference
+-git diff --staged 
+
+To check status
+-git status
+
+To copy/clone github repo to computer file
+-git clone" url "
+
+To move file
+-git mv file_from file_to [If we name the file]
+
+To Move staged file to not staged
+ -git reset HEAD => git reset HEAD file1.txt
+
+To Unmodify a modified File
+- git checkout filename
+
+
+
+
+
+
+
